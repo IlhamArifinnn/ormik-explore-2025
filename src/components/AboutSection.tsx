@@ -76,7 +76,7 @@ const AboutSection = () => {
             />
             {/* Slogan Tags */}
             <img
-              className="absolute bottom-6 -left-14 w-40 sm:w-48 lg:w-38 mx-auto"
+              className="absolute bottom-6 -left-18 md:-left-32 lg:-left-14 w-40 sm:w-48 lg:w-38 mx-auto"
               src="/assets/about/slogan.svg"
               alt="Exploration, Innovative, Dynamic"
             />
@@ -158,7 +158,7 @@ const AboutSection = () => {
         {/* Right Side - ORMIK Explore */}
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start mb-4 lg:mb-6">
-            <p className="text-5xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary [text-shadow:_3px_2px_2px_#000e61] sm:[text-shadow:_6px_5px_3px_#000e61]">
+            <p className="text-5xl sm:text-3xl text-center md:text-4xl lg:text-5xl font-bold text-primary [text-shadow:_3px_2px_2px_#000e61] sm:[text-shadow:_6px_5px_3px_#000e61]">
               ORMIK EXPLORE
             </p>
           </div>
