@@ -1,49 +1,36 @@
 import { ORMIK_DATES } from "../utils/constants/data";
 
 const EventDate = () => {
+  const events = [
+    { label: "PRA ORMIK", date: ORMIK_DATES.pra },
+    { label: "DAY 1", date: ORMIK_DATES.day1 },
+    { label: "DAY 2", date: ORMIK_DATES.day2 },
+    { label: "DAY 3", date: ORMIK_DATES.day3 },
+  ];
+
   return (
     <>
-      {" "}
-      <div className="bg-white/20 px-4 py-3 rounded-lg">
-        <span className="text-primary font-bold">PRA ORMIK</span>
-        <br />
-        {ORMIK_DATES.pra.toLocaleDateString("en-US", {
-          weekday: "long",
-          month: "short",
-          day: "numeric",
-          year: "numeric",
-        })}
-      </div>
-      <div className="bg-white/20 px-4 py-3 rounded-lg">
-        <span className="text-primary font-bold">DAY 1</span>
-        <br />
-        {ORMIK_DATES.day1.toLocaleDateString("en-US", {
-          weekday: "long",
-          month: "short",
-          day: "numeric",
-          year: "numeric",
-        })}
-      </div>
-      <div className="bg-white/20 px-4 py-3 rounded-lg">
-        <span className="text-primary font-bold">DAY 2</span>
-        <br />
-        {ORMIK_DATES.day2.toLocaleDateString("en-US", {
-          weekday: "long",
-          month: "short",
-          day: "numeric",
-          year: "numeric",
-        })}
-      </div>
-      <div className="bg-white/20 px-4 py-3 rounded-lg">
-        <span className="text-primary font-bold">DAY 3</span>
-        <br />
-        {ORMIK_DATES.day3.toLocaleDateString("en-US", {
-          weekday: "long",
-          month: "short",
-          day: "numeric",
-          year: "numeric",
-        })}
-      </div>
+      {events.map((event, index) => (
+        <div
+          key={index}
+          className="bg-white/20 px-2 sm:px-3 md:px-4 py-2 sm:py-3 rounded-lg text-center min-w-[120px] sm:min-w-[140px]"
+        >
+          <span className="text-primary font-bold text-xs sm:text-sm block">
+            {event.label}
+          </span>
+          <span className="text-xs sm:text-sm block mt-1">
+            {event.date.toLocaleDateString("en-US", {
+              weekday: "short",
+              month: "short",
+              day: "numeric",
+            })}
+          </span>
+          {/* Show year on larger screens */}
+          <span className="text-xs hidden sm:block">
+            {event.date.getFullYear()}
+          </span>
+        </div>
+      ))}
     </>
   );
 };

@@ -34,9 +34,9 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center gap-6 bg-white/10 backdrop-blur-md px-10 py-6 rounded-2xl shadow-lg">
+    <div className="flex flex-col items-center gap-4 sm:gap-6 bg-white/10 backdrop-blur-md px-4 sm:px-6 md:px-10 py-4 sm:py-6 rounded-2xl shadow-lg max-w-full">
       {/* Timer Box */}
-      <div className="flex gap-8">
+      <div className="flex gap-3 sm:gap-6 md:gap-8">
         {[
           { label: "Day", value: timeLeft.days },
           { label: "Hour", value: timeLeft.hours },
@@ -47,16 +47,16 @@ const CountdownTimer = () => {
             key={idx}
             className="flex flex-col items-center text-white font-poppins"
           >
-            <div className="text-5xl font-bold text-primary [text-shadow:_6px_5px_3px_#000e61] ">
+            <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary [text-shadow:_3px_2px_2px_#000e61] sm:[text-shadow:_6px_5px_3px_#000e61]">
               {item.value.toString().padStart(2, "0")}
             </div>
-            <p className="text-sm italic">{item.label}</p>
+            <p className="text-xs sm:text-sm italic mt-1">{item.label}</p>
           </div>
         ))}
       </div>
 
       {/* Text di bawah timer */}
-      <p className="text-white text-xl font-bold text-center">
+      <p className="text-white text-sm sm:text-lg md:text-xl font-bold text-center px-2">
         GO TO ORMIK EXPLORE DAY 1
       </p>
     </div>
