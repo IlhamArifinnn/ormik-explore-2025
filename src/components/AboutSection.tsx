@@ -4,16 +4,23 @@ const AboutSection = () => {
       className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat backdrop-opacity-25 p-4 sm:p-6 lg:p-10"
       style={{ backgroundImage: "url('/assets/about/bg-about.png')" }}
     >
+      {/* Gambar tambahan di sudut kiri atas */}
+
       {/* Top Section - Yellow Card */}
       <div
-        className="w-full max-w-7xl flex flex-col lg:flex-row justify-between items-center mx-auto rounded-3xl p-6 sm:p-8 lg:p-10 mb-6 lg:mb-10 bg-cover bg-center"
+        className="w-full max-w-7xl flex flex-col lg:flex-row justify-between items-center mx-auto rounded-3xl p-6 sm:p-8 lg:p-16 mb-6 lg:mb-10 bg-cover bg-center"
         style={{ backgroundImage: "url('/assets/about/bg-yellow.png')" }}
       >
+        <img
+          src="/assets/about/explore-kiri.png"
+          alt="Explore Left"
+          className="absolute top-44 left-0 z-10"
+        />
         {/* Left Side - Explore Our Logo */}
         <div className="w-full lg:w-[30%] mb-6 lg:mb-0">
           <div className="mb-4">
             <img
-              src="/assets/about/explore-our-logo.png"
+              src="/assets/about/explore-our-logo.svg"
               alt="Explore Our Logo"
               className="w-48 sm:w-56 lg:w-64 mx-auto lg:mx-0"
             />
@@ -97,6 +104,13 @@ const AboutSection = () => {
         </div>
       </div>
 
+      {/* Gambar tambahan di sudut kanan bawah */}
+      <img
+        src="/assets/about/explore-kanan.png"
+        alt="Explore Right"
+        className="absolute bottom-0 right-0 z-10"
+      />
+
       {/* Bottom Section - Blue Card */}
       <div
         className="w-full max-w-7xl flex flex-col lg:flex-row justify-between items-center gap-6 lg:gap-8 mx-auto rounded-3xl p-6 sm:p-8 lg:p-10 bg-cover bg-center"
@@ -125,9 +139,11 @@ const AboutSection = () => {
 
           <p className="text-white text-center lg:text-left text-sm sm:text-base leading-relaxed">
             Kegiatan yang bertujuan untuk{" "}
-            <span className="font-semibold">memperkenalkan mahasiswa baru</span>{" "}
-            dengan sistem <span className="font-semibold">perkuliahan</span> dan{" "}
-            <span className="font-semibold">lingkungan kampus</span>.
+            <span className="font-semibold">memperkenalkan mahasiswa baru</span>
+            dengan sistem <span className="font-semibold">
+              perkuliahan
+            </span> dan <span className="font-semibold">lingkungan kampus</span>
+            .
           </p>
         </div>
 
@@ -141,11 +157,9 @@ const AboutSection = () => {
 
           <p className="text-white text-center lg:text-left text-sm sm:text-base leading-relaxed">
             <span className="font-semibold">ORMIK EXPLORE 2025</span> memiliki
-            visi menjadi titik mulai eksplorasi mahasiswa baru{" "}
-            <span className="font-semibold">STT-NF</span> dalam membangun{" "}
-            <span className="font-semibold">semangat akademik</span>,{" "}
-            <span className="font-semibold">budaya positif</span>, dan{" "}
-            <span className="font-semibold">kesiapan diri</span> di era modern.
+            visi menjadi titik mulai eksplorasi mahasiswa baru STT-NF dalam
+            membangun semangat akademik, budaya positif, dan kesiapan diri di
+            era modern.
           </p>
         </div>
       </div>
