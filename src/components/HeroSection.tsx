@@ -12,7 +12,7 @@ const HeroSection = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
       <img
-        src="/assets/hero/bg-circle.png"
+        src="/assets/hero/bg-circle.svg"
         alt="Background Circle"
         className="absolute inset-0 top-8 sm:top-16 md:top-20 w-full h-full object-contain"
       />
@@ -49,14 +49,14 @@ const HeroSection = () => {
 
       {/* Awan Kiri - Hidden on small screens */}
       <img
-        src="/assets/hero/awan-kiri.png"
+        src="/assets/hero/awan-kiri.svg"
         alt="Awan Kiri"
         className="absolute top-4 left-0 w-[150px] sm:w-[200px] md:w-[250px] opacity-80 animate-[cloudMove_30s_linear_infinite] hidden sm:block"
       />
 
       {/* Awan Kanan - Hidden on small screens */}
       <img
-        src="/assets/hero/awan-kanan.png"
+        src="/assets/hero/awan-kanan.svg"
         alt="Awan Kanan"
         className="absolute top-4 right-6 w-[120px] sm:w-[170px] md:w-[220px] opacity-80 animate-[cloudMove_40s_linear_infinite_reverse] hidden sm:block"
       />
@@ -65,7 +65,7 @@ const HeroSection = () => {
       <div className="relative z-20 flex flex-col items-center text-center space-y-4 sm:space-y-6 max-w-4xl mx-auto">
         {/* Logo */}
         <img
-          src="/assets/hero/logo-ormik.png"
+          src="/assets/hero/logo-ormik.svg"
           alt="ORMIK Logo"
           className="w-20 sm:w-24 md:w-28 lg:w-30"
         />
@@ -97,12 +97,12 @@ const HeroSection = () => {
 
       {/* Asset Abstrak - Hidden on mobile, positioned better on larger screens */}
       <img
-        src="/assets/hero/asset-abstrak.png"
+        src="/assets/hero/asset-abstrak.svg"
         alt="asset abstrak"
         className="absolute -bottom-16 sm:-bottom-16 md:-bottom-20 left-4 sm:left-8 md:left-10 w-[120px] sm:w-[150px] md:w-[200px] z-10 hidden sm:block"
       />
       <img
-        src="/assets/hero/asset-abstrak.png"
+        src="/assets/hero/asset-abstrak.svg"
         alt="asset abstrak"
         className="absolute -bottom-16 sm:-bottom-16 md:-bottom-20 right-4 sm:right-8 md:right-10 w-[120px] sm:w-[150px] md:w-[200px] z-10 hidden sm:block"
       />
