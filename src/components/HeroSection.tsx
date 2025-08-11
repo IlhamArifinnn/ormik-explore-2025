@@ -8,38 +8,38 @@ const HeroSection = () => {
       {/* Background Layers */}
 
       <img
-        src="/assets/bg-hero.png"
+        src="/assets/hero/bg-hero.png"
         alt="Background Hero"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <img
-        src="/assets/bg-circle.png"
+        src="/assets/hero/bg-circle.png"
         alt="Background Circle"
         className="absolute inset-0 top-20 w-full h-full object-contain"
       />
       {/* Gedung Tengah */}
       <img
-        src="/assets/gedung-b.png"
+        src="/assets/hero/gedung-b.png"
         alt="Gedung Tengah"
         className="absolute left-1/2 top-31 -translate-x-1/2 z-10 w-[600px]"
       />
 
       {/* Gedung Kiri */}
       <img
-        src="/assets/gedung-a-kiri.png"
+        src="/assets/hero/gedung-a-kiri.png"
         alt="Gedung Kiri"
         className="absolute bottom-0 left-0 z-0 w-[400px]"
       />
 
       {/* Gedung Kanan */}
       <img
-        src="/assets/gedung-a-kanan.png"
+        src="/assets/hero/gedung-a-kanan.png"
         alt="Gedung Kanan"
         className="absolute bottom-0 right-0 z-0 w-[400px]"
       />
 
       <img
-        src="/assets/landasan.png"
+        src="/assets/hero/landasan.png"
         alt="Landasan"
         className="absolute bottom-0 w-full z-10 object-cover"
       />
@@ -49,28 +49,28 @@ const HeroSection = () => {
 
       {/* Awan Kiri */}
       <img
-        src="/assets/awan-kiri.png"
+        src="/assets/hero/awan-kiri.png"
         alt="Awan Kiri"
         className="absolute top-4 left-0 w-[250px] opacity-80 animate-[cloudMove_30s_linear_infinite]"
       />
 
       {/* Awan Kanan */}
       <img
-        src="/assets/awan-kanan.png"
+        src="/assets/hero/awan-kanan.png"
         alt="Awan Kanan"
         className="absolute top-4 right-6 w-[220px] opacity-80 animate-[cloudMove_40s_linear_infinite_reverse]"
       />
 
       {/* Logo */}
       <img
-        src="/assets/logo-ormik.png"
+        src="/assets/hero/logo-ormik.png"
         alt="ORMIK Logo"
         className="w-30 relative z-10 mb-6"
       />
 
       {/* Title */}
       <img
-        src="/assets/hero-title.png"
+        src="/assets/hero/hero-title.png"
         alt="Ready to Explore"
         className="w-[45%] relative z-10 mb-4"
       />
@@ -93,12 +93,12 @@ const HeroSection = () => {
       </div>
 
       <img
-        src="/assets/asset-abstrak.png"
+        src="/assets/hero/asset-abstrak.png"
         alt="asset abstrak"
         className="absolute -bottom-20 left-10 w-[200px] z-10"
       />
       <img
-        src="/assets/asset-abstrak.png"
+        src="/assets/hero/asset-abstrak.png"
         alt="asset abstrak"
         className="absolute -bottom-20 right-10 w-[200px] z-10"
       />
