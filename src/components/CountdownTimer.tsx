@@ -47,7 +47,7 @@ const CountdownTimer = () => {
             key={idx}
             className="flex flex-col items-center text-white font-poppins"
           >
-            <div className="text-5xl font-bold text-primary">
+            <div className="text-5xl font-bold text-primary [text-shadow:_6px_5px_3px_#000e61] ">
               {item.value.toString().padStart(2, "0")}
             </div>
             <p className="text-sm italic">{item.label}</p>

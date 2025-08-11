@@ -91,6 +91,17 @@ const HeroSection = () => {
       <div className="relative z-10 flex gap-4 mt-6 text-white text-sm">
         <EventDate />
       </div>
+
+      <img
+        src="/assets/asset-abstrak.png"
+        alt="asset abstrak"
+        className="absolute -bottom-20 left-10 w-[200px] z-10"
+      />
+      <img
+        src="/assets/asset-abstrak.png"
+        alt="asset abstrak"
+        className="absolute -bottom-20 right-10 w-[200px] z-10"
+      />
     </section>
   );
 };
