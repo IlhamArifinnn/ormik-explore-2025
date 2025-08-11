@@ -1,7 +1,9 @@
+import HeroSection from "./components/HeroSection";
+
 function App() {
   return (
     <>
-      <h2 className="text-2xl font-bold bg-primary">hello dunia</h2>
+      <HeroSection />
     </>
   );
 }

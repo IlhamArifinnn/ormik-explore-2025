@@ -3,5 +3,17 @@
 @theme {
   --font-poppins: Poppins, sans-serif;
   --color-primary: #e2dc00;
-  --color-secondary: #e2dc00;
+  --color-secondary: #000e61;
+}
+
+@keyframes cloudMove {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(45px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
