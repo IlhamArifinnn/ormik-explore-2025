@@ -5,17 +5,21 @@ const AboutSection = () => {
       style={{ backgroundImage: "url('/assets/about/bg-about.png')" }}
     >
       {/* Gambar tambahan di sudut kiri atas */}
+      <img
+        src="/assets/about/explore-kiri.png"
+        alt="Explore Left"
+        className="absolute top-8 left-8 z-10"
+        style={{
+          width: "80px", // Ukuran lebih kecil untuk mobile
+          height: "auto",
+        }}
+      />
 
       {/* Top Section - Yellow Card */}
       <div
         className="w-full max-w-7xl flex flex-col lg:flex-row justify-between items-center mx-auto rounded-3xl p-6 sm:p-8 lg:p-16 mb-6 lg:mb-10 bg-cover bg-center"
         style={{ backgroundImage: "url('/assets/about/bg-yellow.png')" }}
       >
-        <img
-          src="/assets/about/explore-kiri.png"
-          alt="Explore Left"
-          className="absolute top-44 left-0 z-10"
-        />
         {/* Left Side - Explore Our Logo */}
         <div className="w-full lg:w-[30%] mb-6 lg:mb-0">
           <div className="mb-4">
@@ -52,7 +56,7 @@ const AboutSection = () => {
             <div className="absolute top-4 left-1/2 transform -translate-x-1/2">
               <img
                 className="w-48 sm:w-56 lg:w-64"
-                src="/assets/about/output-tray.png"
+                src="/assets/about/output-tray.svg"
                 alt="paper tray"
               />
             </div>
@@ -108,7 +112,11 @@ const AboutSection = () => {
       <img
         src="/assets/about/explore-kanan.png"
         alt="Explore Right"
-        className="absolute bottom-0 right-0 z-10"
+        className="absolute bottom-2 md:bottom-8 right-0 md:right-8 z-10"
+        style={{
+          width: "80px", // Ukuran lebih kecil untuk mobile
+          height: "auto",
+        }}
       />
 
       {/* Bottom Section - Blue Card */}
