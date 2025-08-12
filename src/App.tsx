@@ -1,6 +1,7 @@
 import AboutSection from "./components/AboutSection";
 import CampusSection from "./components/CampusSection";
 import CoreTeam from "./components/CoreTeam";
+import DownloadSection from "./components/DownloadSection";
 import HeroSection from "./components/HeroSection";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <AboutSection />
           <CoreTeam />
           <CampusSection />
+          <DownloadSection />
           {/* <NextSection /> */}
           {/* <Footer /> */}
         </div>
