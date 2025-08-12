@@ -2,6 +2,7 @@ import AboutSection from "./components/AboutSection";
 import CampusSection from "./components/CampusSection";
 import CoreTeam from "./components/CoreTeam";
 import DownloadSection from "./components/DownloadSection";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 
 function App() {
@@ -22,8 +23,7 @@ function App() {
           <CoreTeam />
           <CampusSection />
           <DownloadSection />
-          {/* <NextSection /> */}
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </div>
     </>
