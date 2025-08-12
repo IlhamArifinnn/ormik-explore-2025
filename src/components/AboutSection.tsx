@@ -31,14 +31,14 @@ const AboutSection = () => {
           </div>
           <p className="text-sm sm:text-base text-gray-800 leading-relaxed text-center lg:text-justify">
             Bentuk <span className="font-bold">"X"</span> dan{" "}
-            <span className="font-bold text-blue-600">dua kaki</span>{" "}
+            <span className="font-bold text-secondary">dua kaki</span>{" "}
             melambangkan manusia sebagai{" "}
-            <span className="font-bold text-blue-600">pusat eksplorasi</span>{" "}
+            <span className="font-bold text-secondary">pusat eksplorasi</span>{" "}
             yang{" "}
-            <span className="font-bold text-blue-600">aktif bergerak maju</span>
+            <span className="font-bold text-secondary">aktif bergerak maju</span>
             , menjelajahi dunia{" "}
-            <span className="font-bold text-blue-600">akademik</span> dan{" "}
-            <span className="font-bold text-blue-600">teknologi</span>.
+            <span className="font-bold text-secondary">akademik</span> dan{" "}
+            <span className="font-bold text-secondary">teknologi</span>.
           </p>
         </div>
 
@@ -87,16 +87,16 @@ const AboutSection = () => {
         <div className="w-full lg:w-[30%]">
           <p className="text-sm sm:text-base text-gray-800 leading-relaxed mb-6 text-center lg:text-left">
             Logo ini merepresentasikan{" "}
-            <span className="font-bold text-blue-600">
+            <span className="font-bold text-secondary">
               semangat eksplorasi akademik
             </span>{" "}
-            dan <span className="font-bold text-blue-600">teknologi</span>,
+            dan <span className="font-bold text-secondary">teknologi</span>,
             serta mengajak{" "}
-            <span className="font-bold text-blue-600">explorers</span> untuk{" "}
-            <span className="font-bold text-blue-600">berani mengexplore</span>,{" "}
-            <span className="font-bold text-blue-600">terhubung</span> dengan
+            <span className="font-bold text-secondary">explorers</span> untuk{" "}
+            <span className="font-bold text-secondary">berani mengexplore</span>,{" "}
+            <span className="font-bold text-secondary">terhubung</span> dengan
             masa depan, dan{" "}
-            <span className="font-bold text-blue-600">aktif berinovasi</span>.
+            <span className="font-bold text-secondary">aktif berinovasi</span>.
           </p>
           <div className="flex justify-center lg:justify-start">
             <img

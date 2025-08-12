@@ -3,7 +3,7 @@ import { Instagram } from "lucide-react";
 const Footer = () => {
   return (
     <footer
-      className="relative w-full bg-cover bg-center bg-no-repeat backdrop-opacity-25 p-6"
+      className="relative w-full bg-cover bg-center bg-no-repeat backdrop-opacity-25 p-4 sm:p-6 lg:p-8"
       style={{ backgroundImage: "url('/assets/about/bg-about.png')" }}
     >
       <div className="bg-primary rounded-xl text-center p-6">

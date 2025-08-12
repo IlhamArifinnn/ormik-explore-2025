@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden font-poppins px-4 py-8">
       {/* Background Layers */}
       <img
-        src="/assets/hero/bg-hero.png"
+        src="/assets/hero/bg-hero.svg"
         alt="Background Hero"
         className="absolute inset-0 w-full h-full object-cover"
       />
