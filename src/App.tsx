@@ -1,4 +1,5 @@
 import AboutSection from "./components/AboutSection";
+import CampusSection from "./components/CampusSection";
 import CoreTeam from "./components/CoreTeam";
 import HeroSection from "./components/HeroSection";
 
@@ -18,7 +19,7 @@ function App() {
         <div className="relative z-10">
           <AboutSection />
           <CoreTeam />
-          {/* Tambahkan section lain di sini jika ada */}
+          <CampusSection />
           {/* <NextSection /> */}
           {/* <Footer /> */}
         </div>
