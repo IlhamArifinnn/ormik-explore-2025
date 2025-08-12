@@ -4,7 +4,7 @@ import CoreTeamCard from "./CoreTeamCard";
 const CoreTeam = () => {
   return (
     <section
-      className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat p-6 lg:p-10"
+      className="relative w-full bg-cover bg-center bg-no-repeat p-6 lg:p-10"
       style={{ backgroundImage: "url('/assets/about/bg-about.png')" }}
     >
       <h1 className="uppercase text-4xl lg:text-5xl text-primary font-bold text-center mb-10">

@@ -1,7 +1,7 @@
 const AboutSection = () => {
   return (
     <section
-      className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat backdrop-opacity-25 p-4 sm:p-6 lg:p-10"
+      className="relative w-full bg-cover bg-center bg-no-repeat backdrop-opacity-25 p-4 sm:p-6 lg:p-10"
       style={{ backgroundImage: "url('/assets/about/bg-about.png')" }}
     >
       {/* Gambar tambahan di sudut kiri atas */}

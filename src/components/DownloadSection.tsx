@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 const DownloadSection = () => {
   return (
     <section
-      className="relative w-full min-h-[250px] bg-cover bg-center bg-no-repeat p-4 sm:p-6 lg:p-8"
+      className="relative w-full bg-cover bg-center bg-no-repeat p-4 sm:p-6 lg:p-8"
       style={{ backgroundImage: "url('/assets/about/bg-about.png')" }}
     >
       {/* Kontainer utama */}
