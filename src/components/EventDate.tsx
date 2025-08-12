@@ -13,7 +13,7 @@ const EventDate = () => {
       {events.map((event, index) => (
         <div
           key={index}
-          className="bg-white/20 px-2 sm:px-3 md:px-4 py-2 sm:py-3 rounded-lg text-center min-w-[120px] sm:min-w-[140px]"
+          className="bg-white/20 px-2 sm:px-3 md:px-4 py-2 sm:py-3 rounded-lg text-center min-w-[120px] sm:min-w-[140px] mx-auto"
         >
           <span className="text-primary font-bold text-xs sm:text-sm block">
             {event.label}
