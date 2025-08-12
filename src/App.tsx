@@ -1,4 +1,5 @@
 import AboutSection from "./components/AboutSection";
+import CoreTeam from "./components/CoreTeam";
 import HeroSection from "./components/HeroSection";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         {/* Content sections */}
         <div className="relative z-10">
           <AboutSection />
+          <CoreTeam />
           {/* Tambahkan section lain di sini jika ada */}
           {/* <NextSection /> */}
           {/* <Footer /> */}
