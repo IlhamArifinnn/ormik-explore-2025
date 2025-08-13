@@ -15,7 +15,7 @@ const DownloadSection = () => {
             {/* Maskot */}
             <div className="flex-shrink-0 w-full sm:w-auto flex justify-center sm:justify-start">
               <img
-                src="/assets/download/zero.png"
+                src="/assets/download/zero.svg"
                 alt="Zero Mascot"
                 className="w-36 sm:w-40 lg:w-48 h-auto max-w-xs"
               />

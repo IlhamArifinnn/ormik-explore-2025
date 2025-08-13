@@ -73,7 +73,7 @@ const HeroSection = () => {
 
         {/* Title */}
         <img
-          src="/assets/hero/hero-title.png"
+          src="/assets/hero/hero-title.svg"
           alt="Ready to Explore"
           className="w-[85%] xs:w-[90%] sm:w-[85%] md:w-[75%] lg:w-[65%] max-w-[280px] xs:max-w-[320px] sm:max-w-md md:max-w-lg"
         />

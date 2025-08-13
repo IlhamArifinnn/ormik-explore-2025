@@ -22,7 +22,7 @@ const CampusSection = () => {
             16451
           </p>
           <img
-            src="/assets/kampus/kampus-b.png"
+            src="/assets/kampus/kampus-b.svg"
             alt="Peta Kampus A"
             className="mx-auto rounded-lg shadow-lg"
           />
@@ -38,7 +38,7 @@ const CampusSection = () => {
             Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, 12640
           </p>
           <img
-            src="/assets/kampus/kampus-b.png"
+            src="/assets/kampus/kampus-b.svg"
             alt="Peta Kampus B"
             className="mx-auto rounded-lg shadow-lg"
           />

@@ -65,7 +65,7 @@ const AboutSection = () => {
             <div className="absolute top-8 left-1/2 transform -translate-x-1/2">
               <img
                 className="w-44 sm:w-52 lg:w-60"
-                src="/assets/about/paper-ormik-explore.png"
+                src="/assets/about/paper-ormik-explore.svg"
                 alt="paper ormik explore"
               />
             </div>
@@ -132,7 +132,7 @@ const AboutSection = () => {
               ORMIK
             </p>
             <img
-              src="/assets/about/line.png"
+              src="/assets/about/line.svg"
               alt="separator"
               className="h-6 sm:h-8 lg:h-10 hidden sm:block"
             />
