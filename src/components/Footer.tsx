@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
         {/* Divider */}
-        <hr className="w-[8%] sm:w-[5%] mx-auto border-t border-black my-2 sm:my-3" />
+        <hr className="w-[8%] sm:w-[5%] mx-auto border-t-4  border-secondary my-2 sm:my-3" />
 
         {/* Bagian Bawah: Hak Cipta */}
         <p className="text-xs sm:text-sm lg:text-lg font-medium text-secondary">
