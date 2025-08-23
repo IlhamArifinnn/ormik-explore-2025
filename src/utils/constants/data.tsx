@@ -16,91 +16,91 @@ export const CORETEAM: CoreTeamMember[] = [
   {
     division: "Steering Committee",
     description:
-      "Bertugas memberikan arahan strategis, memastikan seluruh kegiatan berjalan sesuai visi dan misi ORMIK.",
+      "Steering Committee bertanggung jawab mengendalikan seluruh proses kegiatan, mulai dari tahap perencanaan hingga evaluasi akhir, guna memastikan kegiatan berjalan sesuai tujuan dan harapan.",
     image: `/assets/coreteam/sc.png`,
   },
   {
     division: "Project Officer",
     description:
-      "Memimpin pelaksanaan kegiatan ORMIK dan mengawasi semua divisi agar berjalan efektif.",
+      "Individu yang memegang tanggung jawab penuh atas pelaksanaan kegiatan ORMIK. Project Officer bertugas mengawasi secara langsung seluruh elemen di bawahnya, antara lain Sekretaris, Bendahara, dan divisi-divisi lainnya.",
     image: `/assets/coreteam/po.png`,
   },
   {
     division: "Sekretaris",
     description:
-      "Mengelola administrasi, surat-menyurat, dan dokumentasi kegiatan ORMIK.",
+      "Membantu Project officer dalam menjalankan fungsi administrasi, dengan tanggung jawab utama meliputi pengelolaan dokumen, surat-menyurat, proposal, serta pembuatan notulen rapat.",
     image: `/assets/coreteam/sekre.png`,
   },
   {
     division: "Bendahara",
     description:
-      "Mengatur dan mengawasi pengelolaan keuangan kegiatan ORMIK secara transparan.",
+      "Bendahara bertugas untuk menyusun rencana anggaran, mencatat transaksi keuangan, dan membuat laporan pertanggungjawaban keuangan, serta berkoordinasi dengan pihak Kemahasiswaan terkait dana kegiatan.",
     image: `/assets/coreteam/bendahara.png`,
-  },
-  {
-    division: "Public Relations",
-    description:
-      "Menjalin komunikasi dan hubungan baik dengan pihak internal dan eksternal.",
-    image: `/assets/coreteam/pr.png`,
-  },
-  {
-    division: "Liaison Officer (LO)",
-    description:
-      "Menjadi penghubung antara panitia dengan pihak-pihak tertentu untuk kelancaran acara.",
-    image: `/assets/coreteam/lo.png`,
   },
   {
     division: "Event",
     description:
-      "Mengatur konsep, alur acara, dan memastikan setiap rangkaian berjalan lancar.",
+      "Bertanggung jawab atas perencanaan, koordinasi, dan pelaksanaan seluruh rangkaian acara ORMIK, termasuk acara puncak.",
     image: "https://placehold.co/428x285",
   },
   {
     division: "Media",
     description:
-      "Mengelola dokumentasi foto, video, dan publikasi visual kegiatan ORMIK.",
+      "Bertugas untuk memproduksi, mengelola, dan mengabadikan seluruh momen kegiatan ORMIK dalam bentuk dokumentasi serta memastikan seluruh kebutuhan visual dan desain terpenuhi.",
     image: "https://placehold.co/428x285",
+  },
+  {
+    division: "Liaison Officer (LO)",
+    description:
+      "Divisi ini akan berkomunikasi dengan publik eksternal maupun internal kampus. LO juga bertindak sebagai contact person bagi pihak internal maupun eksternal. Serta membantu briefing pihak internal maupun eksternal.",
+    image: `/assets/coreteam/lo.png`,
+  },
+  {
+    division: "Public Relations",
+    description:
+      "Bertanggung jawab untuk mengelola komunikasi, membangun citra positif, serta menjalin hubungan antara ORMIK dengan eksternal di lingkup STT NF.",
+    image: `/assets/coreteam/pr.png`,
   },
   {
     division: "Kreatif",
     description:
-      "Bertanggung jawab pada desain, dekorasi, dan konsep kreatif kegiatan.",
-    image: "https://placehold.co/428x285",
-  },
-  {
-    division: "Kedisiplinan",
-    description:
-      "Menjaga ketertiban dan kedisiplinan peserta selama kegiatan berlangsung.",
-    image: "https://placehold.co/428x285",
-  },
-  {
-    division: "Mentor",
-    description:
-      "Membimbing dan mendampingi peserta dalam memahami materi dan lingkungan kampus.",
+      "Divisi Kreatif bertugas menciptakan suasana acara yang menarik, interaktif, dan berkesan melalui berbagai elemen hiburan, visual, dan partisipatif.",
     image: "https://placehold.co/428x285",
   },
   {
     division: "Logistik",
     description:
-      "Mengatur kebutuhan perlengkapan dan memastikan semua peralatan tersedia.",
+      "Bertanggung jawab untuk mengatur seluruh kebutuhan perlengkapan, peralatan, dan sarana prasarana yang diperlukan dalam mendukung kelancaran kegiatan ORMIK.",
     image: "https://placehold.co/428x285",
   },
   {
     division: "Konsumsi",
     description:
-      "Menyiapkan dan mendistribusikan makanan dan minuman untuk peserta dan panitia.",
+      "Bertugas untuk menyiapkan menu makanan, camilan, serta menjadwalkan waktu makan selama kegiatan ORMIK. Divisi ini juga harus mampu mengatur persediaan makanan dengan cermat untuk memastikan kelancaran acara.",
+    image: "https://placehold.co/428x285",
+  },
+  {
+    division: "Mentor",
+    description:
+      "Bertugas untuk membimbing, mengarahkan, mendampingi, dan memberikan dukungan kepada peserta ORMIK selama kegiatan berlangsung.",
+    image: "https://placehold.co/428x285",
+  },
+  {
+    division: "Kedisiplinan",
+    description:
+      "Bertugas memastikan seluruh rangkaian kegiatan ORMIK berjalan dengan tertib, tepat waktu, dan sesuai aturan yang telah ditetapkan.",
     image: "https://placehold.co/428x285",
   },
   {
     division: "Medis",
     description:
-      "Memberikan pertolongan pertama dan memastikan kesehatan peserta.",
+      "Bertugas untuk memastikan keselamatan dan kesehatan seluruh peserta dan panitia selama kegiatan ORMIK berlangsung.",
     image: "https://placehold.co/428x285",
   },
   {
     division: "IT Support",
     description:
-      "Menyediakan dukungan teknis dan memastikan kelancaran sistem IT selama acara.",
+      "Fokus utama divisi ini mencakup instalasi perangkat, live streaming, serta pengawasan terhadap tiga objek utama, komputer, software, dan sistem jaringan (network).",
     image: "https://placehold.co/428x285",
   },
 ];
