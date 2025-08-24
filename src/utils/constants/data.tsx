@@ -41,13 +41,13 @@ export const CORETEAM: CoreTeamMember[] = [
     division: "Event",
     description:
       "Bertanggung jawab atas perencanaan, koordinasi, dan pelaksanaan seluruh rangkaian acara ORMIK, termasuk acara puncak.",
-    image: "https://placehold.co/428x285",
+    image: `/assets/coreteam/event.png`,
   },
   {
     division: "Media",
     description:
       "Bertugas untuk memproduksi, mengelola, dan mengabadikan seluruh momen kegiatan ORMIK dalam bentuk dokumentasi serta memastikan seluruh kebutuhan visual dan desain terpenuhi.",
-    image: "https://placehold.co/428x285",
+    image: `/assets/coreteam/media.png`,
   },
   {
     division: "Liaison Officer (LO)",
@@ -65,42 +65,42 @@ export const CORETEAM: CoreTeamMember[] = [
     division: "Kreatif",
     description:
       "Divisi Kreatif bertugas menciptakan suasana acara yang menarik, interaktif, dan berkesan melalui berbagai elemen hiburan, visual, dan partisipatif.",
-    image: "https://placehold.co/428x285",
+    image: `/assets/coreteam/kreatif.png`,
   },
   {
     division: "Logistik",
     description:
       "Bertanggung jawab untuk mengatur seluruh kebutuhan perlengkapan, peralatan, dan sarana prasarana yang diperlukan dalam mendukung kelancaran kegiatan ORMIK.",
-    image: "https://placehold.co/428x285",
+    image: `/assets/coreteam/logistik.png`,
   },
   {
     division: "Konsumsi",
     description:
       "Bertugas untuk menyiapkan menu makanan, camilan, serta menjadwalkan waktu makan selama kegiatan ORMIK. Divisi ini juga harus mampu mengatur persediaan makanan dengan cermat untuk memastikan kelancaran acara.",
-    image: "https://placehold.co/428x285",
+    image: `/assets/coreteam/konsumsi.png`,
   },
   {
     division: "Mentor",
     description:
       "Bertugas untuk membimbing, mengarahkan, mendampingi, dan memberikan dukungan kepada peserta ORMIK selama kegiatan berlangsung.",
-    image: "https://placehold.co/428x285",
+    image: `/assets/coreteam/mentor.png`,
   },
   {
     division: "Kedisiplinan",
     description:
       "Bertugas memastikan seluruh rangkaian kegiatan ORMIK berjalan dengan tertib, tepat waktu, dan sesuai aturan yang telah ditetapkan.",
-    image: "https://placehold.co/428x285",
+    image: `/assets/coreteam/kedis.png`,
   },
   {
     division: "Medis",
     description:
       "Bertugas untuk memastikan keselamatan dan kesehatan seluruh peserta dan panitia selama kegiatan ORMIK berlangsung.",
-    image: "https://placehold.co/428x285",
+    image: `/assets/coreteam/medis.png`,
   },
   {
     division: "IT Support",
     description:
       "Fokus utama divisi ini mencakup instalasi perangkat, live streaming, serta pengawasan terhadap tiga objek utama, komputer, software, dan sistem jaringan (network).",
-    image: "https://placehold.co/428x285",
+    image: `/assets/coreteam/it-support.png`,
   },
 ];
