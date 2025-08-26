@@ -21,7 +21,7 @@ const HeroSection = () => {
       <img
         src="/assets/hero/gedung-b.png"
         alt="Gedung Tengah"
-        className="absolute left-1/2 bottom-3 sm:bottom-6 md:bottom-8 lg:bottom-12 -translate-x-1/2 z-10 w-[200px] xs:w-[280px] sm:w-[350px] md:w-[460px] lg:w-[570px] xl:w-[680px]"
+        className="absolute left-1/2 bottom-3 sm:bottom-6 md:bottom-8 lg:bottom-12 -translate-x-1/2 z-10 w-[200px] xs:w-[280px] sm:w-[350px] md:w-[455px] lg:w-[560px] xl:w-[670px]"
       />
 
       {/* Gedung Kiri */}
