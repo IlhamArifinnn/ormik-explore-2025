@@ -22,7 +22,7 @@ const CampusSection = () => {
             16451
           </p>
           <img
-            src="/assets/kampus/kampus-b.svg"
+            src="/assets/kampus/kampus-a.png"
             alt="Peta Kampus A"
             className="mx-auto rounded-lg shadow-lg"
           />
