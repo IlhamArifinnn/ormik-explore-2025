@@ -78,13 +78,17 @@ const HeroSection = () => {
         />
         {/* Button */}
         <div className="cursor-pointer select-none active:translate-y-1 active:shadow-none active:border-b-0 transition-all duration-200 bg-secondary [box-shadow:0_3px_0_0_#1b4ff8,0_5px_0_0_rgba(0,14,97,0.5)] xs:[box-shadow:0_4px_0_0_#1b4ff8,0_6px_0_0_rgba(0,14,97,0.5)] sm:[box-shadow:0_5px_0_0_#1b4ff8,0_8px_0_0_rgba(0,14,97,0.5)] md:[box-shadow:0_6px_0_0_#1b4ff8,0_10px_0_0_rgba(0,14,97,0.5)] border-b-[1px] border-secondary rounded-md sm:rounded-lg hover:scale-105 hover:shadow-[0_0_15px_rgba(0,174,255,0.7)]">
-          <span className="flex items-center justify-center gap-2 sm:gap-3 h-full font-bold px-3 xs:px-4 sm:px-5 md:px-6 py-2 xs:py-2.5 sm:py-3 text-white text-xs xs:text-sm sm:text-base">
+          <a
+            href="https://tour.nurulfikri.ac.id/"
+            target="_blank"
+            className="flex items-center justify-center gap-2 sm:gap-3 h-full font-bold px-3 xs:px-4 sm:px-5 md:px-6 py-2 xs:py-2.5 sm:py-3 text-white text-xs xs:text-sm sm:text-base"
+          >
             CAMPUS EXPLORE
             <MoveUpRight
               size={16}
               className="xs:w-4 xs:h-4 sm:w-5 sm:h-5 md:w-6 md:h-6"
             />
-          </span>
+          </a>
         </div>
         {/* Countdown */}
         <div className="my-2 xs:my-3 sm:my-4 md:my-6 lg:my-8">

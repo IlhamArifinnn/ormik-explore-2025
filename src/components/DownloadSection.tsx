@@ -41,8 +41,8 @@ const DownloadSection = () => {
             </div>
 
             {/* Tombol Download */}
-            <div className="flex-shrink-0 w-full sm:w-auto flex justify-center sm:justify-end">
-              <div
+            <div className="flex-shrink-0 w-full sm:w-auto flex justify-end sm:justify-end">
+              {/* <div
                 className="cursor-pointer select-none active:translate-y-1 active:shadow-none active:border-b-0 
                 transition-all duration-200 bg-primary rounded-lg 
                 [box-shadow:0_4px_0_0_#000e61,0_6px_0_0_rgba(0,14,97,0.5)] 
@@ -52,7 +52,28 @@ const DownloadSection = () => {
                 <span className="flex items-center h-full font-bold px-5 py-2.5 sm:px-6 lg:px-8 sm:py-3 text-secondary text-sm sm:text-base">
                   <a href="#">Download Center</a>
                 </span>
-              </div>
+              </div> */}
+
+              <a
+                href="https://drive.google.com/file/d/1dicryzEqjhbPcSGXx02x9t2ULLRTb7oT/view"
+                target="_blank"
+              >
+                <img
+                  src="/assets/download/guide-book.svg"
+                  alt=""
+                  className="w-[80%]"
+                />
+              </a>
+              <a
+                href="https://www.twibbonize.com/explorers-oe25"
+                target="_blank"
+              >
+                <img
+                  src="/assets/download/twibbon.svg"
+                  alt=""
+                  className="w-[80%]"
+                />
+              </a>
             </div>
           </div>
         </div>

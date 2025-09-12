@@ -7,7 +7,7 @@ import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
-    <>
+    <section className="overflow-x-hidden">
       <HeroSection />
       {/* Container dengan background landasan untuk semua section setelah hero */}
       <div
@@ -26,7 +26,7 @@ function App() {
           <Footer />
         </div>
       </div>
-    </>
+    </section>
   );
 }
 
