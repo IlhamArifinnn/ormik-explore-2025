@@ -1,41 +1,63 @@
+// CoreTeam.tsx
 import { CORETEAM } from "../utils/constants/data";
 import CoreTeamCard from "./CoreTeamCard";
+import "keen-slider/keen-slider.min.css";
+import { useKeenSlider } from "keen-slider/react";
 
 const CoreTeam = () => {
+  const [sliderRef] = useKeenSlider({
+    loop: true,
+    renderMode: "performance",
+    drag: true,
+    slides: {
+      perView: 3,
+      spacing: 20,
+    },
+    breakpoints: {
+      "(max-width: 768px)": {
+        slides: { perView: 1.2, spacing: 10 },
+      },
+      "(min-width: 769px) and (max-width: 1024px)": {
+        slides: { perView: 2, spacing: 15 },
+      },
+    },
+    created(s) {
+      s.moveToIdx(5, true, { duration: 50000 }); // jalan otomatis super halus
+    },
+    updated(s) {
+      s.moveToIdx(s.track.details.abs + 5, true, { duration: 50000 });
+    },
+    animationEnded(s) {
+      s.moveToIdx(s.track.details.abs + 5, true, { duration: 50000 });
+    },
+  });
+
   return (
     <section
-      className="relative w-full bg-cover bg-center bg-no-repeat p-6 lg:p-10"
+      className="relative w-full overflow-hidden bg-cover bg-center bg-no-repeat p-6 lg:p-10"
       style={{ backgroundImage: "url('/assets/about/bg-about.png')" }}
     >
       <h1 className="uppercase text-4xl lg:text-5xl text-primary font-bold text-center mb-10">
         The Core Team In Here
       </h1>
 
-      {/* Awan Kiri - Hidden on small screens */}
-      <img
-        src="/assets/hero/awan-kiri.svg"
-        alt="Awan Kiri"
-        className="absolute -top-10 -left-18 w-[150px] sm:w-[200px] md:w-[250px] opacity-80 animate-[cloudMove_30s_linear_infinite] hidden sm:block"
-      />
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto cursor-pointer">
+      {/* Baris 1 */}
+      <div ref={sliderRef} className="keen-slider mb-8">
         {CORETEAM.map((member, index) => (
-          <CoreTeamCard key={index} {...member} />
+          <div key={index} className="keen-slider__slide">
+            <CoreTeamCard {...member} />
+          </div>
         ))}
       </div>
-      {/* kanan atas */}
-      <img
-        src="/assets/hero/asset-abstrak.svg"
-        alt="asset abstrak"
-        className="absolute top-6 sm:top-6 md:top-10 right-0 sm:right-2 md:right-2 w-[120px] sm:w-[150px] md:w-[200px] -z-1 hidden sm:block"
-      />
 
-      {/* kiri bawah */}
-      <img
-        src="/assets/hero/asset-abstrak.svg"
-        alt="asset abstrak"
-        className="absolute -bottom-10 sm:-bottom-10 md:-bottom-16 -left-10 sm:-left-12 md:-left-12 w-[120px] sm:w-[150px] md:w-[200px] z-1 hidden sm:block"
-      />
+      {/* Baris 2 → dibalik biar arah jalannya beda */}
+      <div ref={sliderRef} className="keen-slider">
+        {[...CORETEAM].reverse().map((member, index) => (
+          <div key={index} className="keen-slider__slide">
+            <CoreTeamCard {...member} />
+          </div>
+        ))}
+      </div>
     </section>
   );
 };
