@@ -22,13 +22,13 @@ const CoreTeam = () => {
       },
     },
     created(s) {
-      s.moveToIdx(5, true, { duration: 50000 }); // jalan otomatis super halus
+      s.moveToIdx(5, true, { duration: 60000 }); // jalan otomatis super halus
     },
     updated(s) {
-      s.moveToIdx(s.track.details.abs + 5, true, { duration: 50000 });
+      s.moveToIdx(s.track.details.abs + 5, true, { duration: 60000 });
     },
     animationEnded(s) {
-      s.moveToIdx(s.track.details.abs + 5, true, { duration: 50000 });
+      s.moveToIdx(s.track.details.abs + 5, true, { duration: 60000 });
     },
   });
 
