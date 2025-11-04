@@ -7,6 +7,7 @@ const CoreTeamCard = ({ image, division, description }: CoreTeamMember) => {
       <img
         src={image}
         alt={division}
+        loading="lazy"
         className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-110"
       />
       {/* Overlay */}

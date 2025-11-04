@@ -17,6 +17,7 @@ const DownloadSection = () => {
               <img
                 src="/assets/download/zero.svg"
                 alt="Zero Mascot"
+                loading="lazy"
                 className="w-36 sm:w-40 lg:w-48 h-auto max-w-xs"
               />
             </div>
@@ -61,6 +62,7 @@ const DownloadSection = () => {
                 <img
                   src="/assets/download/guide-book.svg"
                   alt=""
+                  loading="lazy"
                   className="w-[80%]"
                 />
               </a>
@@ -71,6 +73,7 @@ const DownloadSection = () => {
                 <img
                   src="/assets/download/twibbon.svg"
                   alt=""
+                  loading="lazy"
                   className="w-[80%]"
                 />
               </a>

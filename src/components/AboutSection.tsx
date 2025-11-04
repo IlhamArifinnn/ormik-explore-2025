@@ -8,6 +8,7 @@ const AboutSection = () => {
       <img
         src="/assets/about/explore-kiri.png"
         alt="Explore Left"
+        loading="lazy"
         className="absolute top-8 left-8 z-10"
         style={{
           width: "80px", // Ukuran lebih kecil untuk mobile
@@ -26,6 +27,7 @@ const AboutSection = () => {
             <img
               src="/assets/about/explore-our-logo.svg"
               alt="Explore Our Logo"
+              loading="lazy"
               className="w-48 sm:w-56 lg:w-64 mx-auto lg:mx-0"
             />
           </div>
@@ -35,7 +37,9 @@ const AboutSection = () => {
             melambangkan manusia sebagai{" "}
             <span className="font-bold text-secondary">pusat eksplorasi</span>{" "}
             yang{" "}
-            <span className="font-bold text-secondary">aktif bergerak maju</span>
+            <span className="font-bold text-secondary">
+              aktif bergerak maju
+            </span>
             , menjelajahi dunia{" "}
             <span className="font-bold text-secondary">akademik</span> dan{" "}
             <span className="font-bold text-secondary">teknologi</span>.
@@ -50,6 +54,7 @@ const AboutSection = () => {
               className="w-64 sm:w-72 lg:w-86 mx-auto "
               src="/assets/about/bg-people.svg"
               alt="background image people"
+              loading="lazy"
             />
 
             {/* Output Tray - Positioned over the people background */}
@@ -58,6 +63,7 @@ const AboutSection = () => {
                 className="w-48 sm:w-56 lg:w-64"
                 src="/assets/about/output-tray.svg"
                 alt="paper tray"
+                loading="lazy"
               />
             </div>
 
@@ -67,12 +73,14 @@ const AboutSection = () => {
                 className="w-44 sm:w-52 lg:w-60"
                 src="/assets/about/paper-ormik-explore.svg"
                 alt="paper ormik explore"
+                loading="lazy"
               />
             </div>
             <img
               className="absolute top-0"
               src="/assets/about/border-paper.svg"
               alt="border image"
+              loading="lazy"
             />
             {/* Slogan Tags */}
             <img
@@ -93,8 +101,8 @@ const AboutSection = () => {
             dan <span className="font-bold text-secondary">teknologi</span>,
             serta mengajak{" "}
             <span className="font-bold text-secondary">explorers</span> untuk{" "}
-            <span className="font-bold text-secondary">berani mengexplore</span>,{" "}
-            <span className="font-bold text-secondary">terhubung</span> dengan
+            <span className="font-bold text-secondary">berani mengexplore</span>
+            , <span className="font-bold text-secondary">terhubung</span> dengan
             masa depan, dan{" "}
             <span className="font-bold text-secondary">aktif berinovasi</span>.
           </p>
@@ -102,6 +110,7 @@ const AboutSection = () => {
             <img
               src="/assets/about/logo-ormik-explore.svg"
               alt="Logo ORMIK Explore"
+              loading="lazy"
               className="w-48 sm:w-56 lg:w-64"
             />
           </div>
@@ -112,6 +121,7 @@ const AboutSection = () => {
       <img
         src="/assets/about/explore-kanan.png"
         alt="Explore Right"
+        loading="lazy"
         className="absolute bottom-2 md:bottom-8 right-0 md:right-8 z-10"
         style={{
           width: "80px", // Ukuran lebih kecil untuk mobile
@@ -134,6 +144,7 @@ const AboutSection = () => {
             <img
               src="/assets/about/line.svg"
               alt="separator"
+              loading="lazy"
               className="h-6 sm:h-8 lg:h-10 hidden sm:block"
             />
             <p className="text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-bold text-primary [text-shadow:_3px_2px_2px_#000e61] sm:[text-shadow:_6px_5px_3px_#000e61]">

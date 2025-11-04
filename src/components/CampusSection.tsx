@@ -8,6 +8,7 @@ const CampusSection = () => {
       <img
         src="/assets/about/explore-kiri.png"
         alt="Explore Left"
+        loading="lazy"
         className="absolute top-20 left-0 -z-1"
       />
 
@@ -24,6 +25,7 @@ const CampusSection = () => {
           <img
             src="/assets/kampus/kampus-a.png"
             alt="Peta Kampus A"
+            loading="lazy"
             className="mx-auto rounded-lg shadow-lg"
           />
         </div>
@@ -40,6 +42,7 @@ const CampusSection = () => {
           <img
             src="/assets/kampus/kampus-b.svg"
             alt="Peta Kampus B"
+            loading="lazy"
             className="mx-auto rounded-lg shadow-lg"
           />
         </div>
@@ -47,6 +50,7 @@ const CampusSection = () => {
         <img
           src="/assets/hero/awan-kiri.svg"
           alt="Awan kanan"
+          loading="lazy"
           className="absolute bottom-0 right-0 w-[150px] sm:w-[200px] md:w-[250px] opacity-80 animate-[cloudMove_30s_linear_infinite] hidden sm:block"
         />
       </div>
