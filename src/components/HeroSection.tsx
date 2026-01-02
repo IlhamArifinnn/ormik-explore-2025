@@ -10,11 +10,13 @@ const HeroSection = () => {
         src="/assets/hero/bg-hero.svg"
         alt="Background Hero"
         className="absolute inset-0 w-full h-full object-cover"
+        loading="lazy"
       />
       <img
         src="/assets/hero/bg-circle.svg"
         alt="Background Circle"
         className="absolute inset-0 top-4 sm:top-8 md:top-12 lg:top-16 xl:top-20 w-full h-full object-contain"
+        loading="lazy"
       />
 
       {/* Gedung Tengah */}
@@ -22,6 +24,7 @@ const HeroSection = () => {
         src="/assets/hero/gedung-b.png"
         alt="Gedung Tengah"
         className="absolute left-1/2 bottom-3 sm:bottom-6 md:bottom-8 lg:bottom-12 -translate-x-1/2 z-10 w-[200px] xs:w-[280px] sm:w-[350px] md:w-[455px] lg:w-[560px] xl:w-[670px]"
+        loading="lazy"
       />
 
       {/* Gedung Kiri */}
@@ -29,6 +32,7 @@ const HeroSection = () => {
         src="/assets/hero/gedung-a-kiri.png"
         alt="Gedung Kiri"
         className="absolute bottom-0 left-0 z-0 w-[100px] xs:w-[150px] sm:w-[200px] md:w-[260px] lg:w-[330px] xl:w-[410px]"
+        loading="lazy"
       />
 
       {/* Gedung Kanan */}
@@ -36,6 +40,7 @@ const HeroSection = () => {
         src="/assets/hero/gedung-a-kanan.png"
         alt="Gedung Kanan"
         className="absolute bottom-0 right-0 z-0 w-[100px] xs:w-[150px] sm:w-[200px] md:w-[260px] lg:w-[330px] xl:w-[410px]"
+        loading="lazy"
       />
 
       {/* Landasan */}
@@ -43,6 +48,7 @@ const HeroSection = () => {
         src="/assets/hero/landasan.png"
         alt="Landasan"
         className="absolute bottom-0 w-full z-10 object-cover h-10 xs:h-14 sm:h-16 md:h-20 lg:h-24"
+        loading="lazy"
       />
 
       {/* Shadow Kuning Tengah */}
@@ -53,12 +59,14 @@ const HeroSection = () => {
         src="/assets/hero/awan-kiri.svg"
         alt="Awan Kiri"
         className="absolute top-2 xs:top-4 sm:top-6 md:top-8 left-0 w-[80px] xs:w-[130px] sm:w-[170px] md:w-[220px] lg:w-[260px] opacity-70 sm:opacity-80 animate-[cloudMove_30s_linear_infinite]"
+        loading="lazy"
       />
 
       {/* Awan Kanan */}
       <img
         src="/assets/hero/awan-kanan.svg"
         alt="Awan Kanan"
+        loading="lazy"
         className="absolute top-2 xs:top-4 sm:top-6 md:top-8 right-2 xs:right-4 sm:right-6 w-[60px] xs:w-[100px] sm:w-[140px] md:w-[200px] lg:w-[240px] opacity-70 sm:opacity-80 animate-[cloudMove_40s_linear_infinite_reverse]"
       />
 
@@ -68,12 +76,14 @@ const HeroSection = () => {
         <img
           src="/assets/hero/logo-ormik.svg"
           alt="ORMIK Logo"
+          loading="lazy"
           className="w-14 xs:w-18 sm:w-20 md:w-24 lg:w-32"
         />
         {/* Title */}
         <img
           src="/assets/hero/hero-title.svg"
           alt="Ready to Explore"
+          loading="lazy"
           className="w-[80%] xs:w-[90%] sm:w-[80%] md:w-[65%] lg:w-[55%] max-w-[280px] xs:max-w-[320px] sm:max-w-md md:max-w-lg"
         />
         {/* Button */}
@@ -104,11 +114,13 @@ const HeroSection = () => {
       <img
         src="/assets/hero/asset-abstrak.svg"
         alt="asset abstrak"
+        loading="lazy"
         className="absolute -bottom-8 sm:-bottom-12 md:-bottom-16 lg:-bottom-20 left-2 sm:left-6 md:left-10 w-[60px] xs:w-[100px] sm:w-[130px] md:w-[160px] lg:w-[200px] z-10 opacity-60 sm:opacity-80"
       />
       <img
         src="/assets/hero/asset-abstrak.svg"
         alt="asset abstrak"
+        loading="lazy"
         className="absolute -bottom-8 sm:-bottom-12 md:-bottom-16 lg:-bottom-20 right-2 sm:right-6 md:right-10 w-[60px] xs:w-[100px] sm:w-[130px] md:w-[160px] lg:w-[200px] z-10 opacity-60 sm:opacity-80"
       />
 
