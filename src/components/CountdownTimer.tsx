@@ -8,6 +8,7 @@ const CountdownTimer = () => {
     minutes: 0,
     seconds: 0,
   });
+  const [isExpired, setIsExpired] = useState(false);
 
   useEffect(() => {
     const targetDate = ORMIK_DATES.day1.getTime();
@@ -19,9 +20,11 @@ const CountdownTimer = () => {
       if (diff <= 0) {
         clearInterval(timer);
         setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+        setIsExpired(true);
         return;
       }
 
+      setIsExpired(false);
       setTimeLeft({
         days: Math.floor(diff / (1000 * 60 * 60 * 24)),
         hours: Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
@@ -57,7 +60,7 @@ const CountdownTimer = () => {
 
       {/* Text di bawah timer */}
       <p className="text-white text-sm sm:text-lg md:text-xl font-bold text-center px-2">
-        GO TO ORMIK EXPLORE DAY 1
+        {isExpired ? "ORMIK EXPLORE DAY 1 TELAH DIMULAI" : "GO TO ORMIK EXPLORE DAY 1"}
       </p>
     </div>
   );
