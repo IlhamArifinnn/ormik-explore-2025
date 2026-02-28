@@ -6,6 +6,12 @@
   --color-secondary: #000e61;
 }
 
+html{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
 @keyframes cloudMove {
   0% {
     transform: translateX(0);
